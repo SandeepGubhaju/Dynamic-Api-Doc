@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Epay</title>
+  </head>
+  <body>
+    {{>navbar data=details}}
+
+    {{#each flutters}}
+    <div class="flutter-section">
+      <div class="container">
+        <h3 class="pt-5">{{this.header1}}</h3>
+        <p class="pt-3">{{this.para1}}</p>
+        <h1 class="pt-4">{{this.header2}}</h1>
+        <p class="pt-4">{{this.para2}}</p>
+        <p>{{this.para3}}</p>
+        <h6 class="pt-3">{{this.list1}}</h6>
+        <h6 class="pt-3">{{this.list2}}</h6>
+        <h6 class="pt-3">{{this.list3}}</h6>
+        <div class="flutter-background pt-3 mt-5">
+          <p class="ps-5">{{this.para4}}</p>
+          <p class="ps-5">{{this.para5}}</p>
+          <p class="ps-5">{{this.para6}}</p>
+          <p class="ps-5">{{this.para7}}</p>
+          <p class="ps-5 pb-3">{{this.para8}}</p>
+        </div>
+      
+      </div>
+    </div>
+    {{/each}}
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

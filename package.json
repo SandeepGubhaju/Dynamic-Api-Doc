@@ -1,0 +1,19 @@
+{
+  "name": "esewa_dynamic_apo_doc",
+  "version": "1.0.0",
+  "description": "This is a site which lets user make changes to the content to the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "sandeep gubhaju",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}

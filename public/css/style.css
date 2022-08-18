@@ -1,0 +1,237 @@
+.image-section {
+  opacity: 0.4;
+  position: absolute;
+}
+
+.image-text-image {
+  position: relative;
+  top: 138px;
+  text-align: center;
+}
+
+.image-text1 {
+  position: relative;
+  top: 194px;
+  text-align: center;
+}
+.image-text2 {
+  position: relative;
+  top: 211px;
+  text-align: center;
+}
+.image-text3 {
+  position: relative;
+  top: 281px;
+  text-align: center;
+}
+
+.image-text4 {
+  position: relative;
+  top: 329px;
+  text-align: center;
+}
+
+.intro-content {
+  position: relative;
+  top: 455px;
+}
+.form-signup {
+  position: relative;
+  top: 464px;
+}
+
+/* copied */
+
+.content-third-para a {
+  font-size: 20px;
+}
+
+.epay-content h4 {
+  font-size: 32px;
+  margin-top: 47px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.epay-content .epay-content-para1 {
+  font-size: 15px;
+  margin-top: 24px;
+  color: #3a4e63;
+}
+
+.epay-content .epay-content-para {
+  font-size: 15px;
+  margin-top: 24px;
+  color: #3a4e63;
+}
+
+.epay-content ol {
+  font-size: 15px;
+  margin-top: 24px;
+  color: rgb(58, 78, 99);
+}
+
+.epay-content h6 {
+  padding-top: 15px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.epay-content .epay-content-image {
+  text-align: center;
+  padding-right: 117px;
+  padding-top: 21px;
+}
+
+.system-interaction p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: #3a4e63;
+}
+
+.system-interaction .system-interaction-note {
+  background-color: #e7e9eb;
+  padding: 18px;
+  border-radius: 6px;
+}
+.system-interaction .system-remove-padding {
+  margin: 0;
+}
+
+.system-interaction ul {
+  font-size: 14px;
+  color: #3a4e63;
+}
+
+.system-interaction h4 {
+  padding-top: 31px;
+  padding-bottom: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.system-interaction .system-para-anchor a {
+  color: green;
+}
+
+.system-interaction .system-para-padded {
+  padding-top: 26px;
+}
+
+.system-interaction h6 {
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+}
+
+.integration .integration-background {
+  background-color: #e7e9eb;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.integration .integration-background pre {
+  margin: 0px;
+  padding-top: 23px;
+  font-size: 15px;
+  color: #3a4e63;
+}
+
+.payment-span3 {
+  color: red !important;
+  font-size: 15px;
+}
+
+.integration h4 {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+}
+.integration h6 {
+  padding-bottom: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.integration p {
+  font-size: 15px;
+  color: #3a4e63;
+  padding-top: 10px;
+}
+.integration h5 {
+  padding-top: 27px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+}
+
+.integration .payment-span {
+  font-size: 15px;
+  padding-bottom: 15px;
+  color: #3a4e63;
+}
+
+.integration .integration-para-last {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-weight: 600;
+}
+.integration-background-green {
+  background-color: #edf9f2;
+  padding: 19px;
+  border-radius: 4px;
+}
+.integration-background-green a {
+  color: green;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* first table */
+
+table,
+th,
+td {
+  border: solid 0.4px gray;
+}
+table {
+  font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* FAQ */
+.faq h4 {
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.faq .faq-strong {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.faq p {
+  font-size: 15px;
+  color: rgb(58, 78, 99);
+}
+
+.faq ul {
+  font-size: 15px;
+  color: #3a4e63;
+}
+
+.background-andriod {
+  margin-top: 50px;
+  background-color: rgba(169, 175, 166, 0.132);
+  border-radius: 10px;
+}
+
+.background-andriod1 {
+  margin-top: 30px;
+  background: rgba(72, 111, 72, 0.302);
+  border-radius: 10px;
+}
+
+
+.flutter-background{
+  background-color: rgba(229, 222, 222, 0.791);
+  border-radius: 10px;
+}
